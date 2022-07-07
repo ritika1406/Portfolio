@@ -1,0 +1,302 @@
+    @import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
+    body {
+        background-color: black;
+        font-family: 'Gulzar', serif;
+        color: white
+    }
+    
+    nav {
+        width: 100%;
+        background-color: black;
+        margin: auto;
+    }
+    
+    .nav a {
+        color: white;
+    }
+    
+    .navitems {
+        align-items: flex-end;
+    }
+    
+    .nav-link:hover {
+        color: #ffaa1c;
+    }
+    /* intro session */
+    
+    .introupper {
+        margin-top: 2rem;
+    }
+    
+    .intro {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        margin: auto;
+    }
+    
+    .introcontent button {
+        padding: .5rem 1rem;
+        margin-top: 1rem;
+        border-style: none;
+        background-color: #ffaa1c;
+    }
+    
+    .introcontent h3 {
+        color: rgb(151, 149, 149);
+    }
+    
+    .redtext {
+        color: #ff3e2a;
+    }
+    
+    .introcontent p {
+        opacity: 80%;
+    }
+    
+    .imageintro img {
+        height: 20rem;
+        /* margin: 0%; */
+        width: 18rem;
+        border-radius: 50%;
+    }
+    /* aboutme */
+    
+    .aboutmeupper {
+        margin-top: 5rem;
+    }
+    
+    .aboutme {
+        width: 65%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .graphabtme {
+        display: flex;
+        margin-right: 2rem;
+    }
+    
+    .graphabtme .internships,
+    .graphabtme .projects {
+        text-align: center;
+        margin: .5rem;
+        background-color: #303030;
+        height: fit-content;
+        padding: 1rem;
+    }
+    
+    .contentabtme {
+        width: 60%;
+        margin-left: 2rem;
+    }
+    /* .contentabtme h1 {
+        color: #ff3e2a;
+    } */
+    
+    .contentabtme p {
+        margin: 0.5rem 1rem;
+        text-align: center;
+    }
+    
+    .webdev {
+        text-align: center;
+        margin: .5rem;
+        background-color: white;
+        padding: 1rem;
+        height: 15rem;
+    }
+    
+    .webdev p {
+        writing-mode: vertical-lr;
+        font-weight: bolder;
+        color: #ffaa1c;
+    }
+    /* experience */
+    
+    .experienceupper {
+        display: flex;
+    }
+    
+    .experience {
+        width: 70%;
+        margin-left: 1rem;
+        display: flex;
+        margin-top: 4rem;
+    }
+    
+    .experience .bgcard {
+        width: 50%;
+        background-color: #ff3e2a;
+        height: 25rem;
+        margin-bottom: 2rem;
+    }
+    
+    .cards {
+        display: flex;
+        height: fit-content;
+        margin-top: 3rem;
+        margin-left: -7rem;
+    }
+    
+    .cards .card {
+        border-radius: 0%;
+        margin-right: .9rem;
+        background-color: #101010;
+        padding: 2rem;
+    }
+    
+    .cards .card:hover {
+        background-color: #ffaa1c;
+        color: black;
+    }
+    
+    .bgcard h2 {
+        -webkit-writing-mode: vertical-lr;
+        margin: 25%;
+        font-size: xxx-large;
+    }
+    /* red: #ff695a 
+   yellow: #ffaa1c*/
+    /* skills */
+    
+    .skills {
+        text-align: center;
+        font-size: 3rem;
+    }
+    
+    .skills i {
+        color: white;
+        /* text-align: center; */
+        margin: .5rem;
+    }
+    
+    .skills .html {
+        color: #f06529;
+    }
+    
+    .skills .css {
+        color: #264de4;
+    }
+    
+    .skills .bts {
+        color: #563d7c;
+    }
+    
+    .skills .js {
+        color: #F0db4f;
+    }
+    
+    .skills .python {
+        color: #4b8bbe;
+    }
+    
+    .skills .django {
+        color: #092e20;
+    }
+    
+    .skills .sql {
+        color: #00758f;
+    }
+    
+    .skills .vsc {
+        color: #0078d7;
+    }
+    
+    .skills .git {
+        color: #f1502f;
+    }
+    
+    .skills .aws {
+        color: #f90;
+    }
+    
+    .skills .figma {
+        color: #e04a34;
+    }
+    /* projects */
+    
+    .projectsupper {
+        width: 60%;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    
+    .headerpro {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .projcard {
+        background-color: #303030;
+        margin: .5rem;
+        padding: 1rem;
+    }
+    /* education */
+    
+    .educationupper {
+        width: 50%;
+        margin: auto;
+        margin-top: 4rem;
+        padding: 1rem;
+    }
+    /* contact me */
+    
+    .contactupper {
+        margin: auto;
+        margin-top: 4rem;
+        width: 80%;
+        background-color: #303030;
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .contact {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .buttoncont button {
+        background-color: #ffaa1c;
+        border-style: none;
+        padding: .5rem;
+    }
+    /* footer */
+    
+    .footerupper {
+        margin: auto;
+        background-color: #303030;
+    }
+    
+    .footer {
+        text-align: center;
+        font-size: large;
+        padding: 1rem;
+    }
+    
+    .footer i {
+        margin: .5rem;
+        padding: .5rem;
+        margin-top: .1rem;
+        padding-bottom: .1rem;
+    }
+    
+    .footer .linkedin {
+        color: #0077b5
+    }
+    
+    .footer .insta {
+        color: #f78900;
+    }
+    /* media queries */
+    
+    @media only screen and (min-width: 800px) {
+        .navitems {
+            margin-left: 55%;
+        }
+        .nav a {
+            margin-left: .5rem;
+        }
+    }
