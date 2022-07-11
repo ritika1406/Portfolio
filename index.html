@@ -48,22 +48,23 @@
         </div>
 
     </nav>
-    <div class="introupper">
+    <div class="introupper" id="intro">
         <div class="intro">
             <div class="introcontent">
                 <h3>Hello</h3>
                 <h1>I'M <span class="redtext">Ritika Tiwari</span></h1>
                 <p>Web Developer</p>
-                <button>Contact Me</button>
+                <a href="https://www.linkedin.com/in/ritika-tiwari-3646611ab/" class="button">Contact Me</a>
             </div>
-            <div class="imageintro">
+            <div class="imageintro" style='display:none' id="imgintro">
                 <img src="prof.png" id="image" alt="image">
             </div>
         </div>
     </div>
-    <div class="aboutmeupper">
+    <div class="aboutmeupper" id='about'>
         <div class="aboutme">
             <div class="graphabtme ">
+                <!-- <img src="profi.png" id="image" alt="image"> -->
                 <div class="col">
                     <div class="internships row  ">
                         <h2>3</h2>
@@ -218,7 +219,7 @@
                     <span>Computer Engineering</span>
                 </h5>
 
-                <p>Universal Collge Of Engineering</p>
+                <p>Universal College Of Engineering</p>
             </div>
             <hr>
             <div class="col">
@@ -243,7 +244,7 @@
                 <p>Help me to contribute to your project</p>
             </div>
             <div class="buttoncont">
-                <button class="button">Contact Me</button></div>
+                <a class="button" href="https://www.linkedin.com/in/ritika-tiwari-3646611ab/">Contact Me</a></div>
         </div>
     </div>
 
@@ -251,9 +252,9 @@
 
         <div class="footer">
 
-            <i class="fa-brands  fa-linkedin linkedin"></i>
-            <i class="fa-brands   fa-instagram insta"></i>
-            <i class="fa-brands  fa-github git"></i>
+            <a class="fa-brands  fa-linkedin linkedin" href="https://www.linkedin.com/in/ritika-tiwari-3646611ab/"></a>
+            <a class="fa-brands   fa-instagram insta"></a>
+            <a class="fa-brands  fa-github git" href="https://github.com/ritika1406"></a>
         </div>
     </div>
 </body>
@@ -262,8 +263,22 @@
 
 
 
-
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script>
+    window.onload = function() {
+        setTimeout(loadAfterTime, 500)
+    };
+
+
+    function loadAfterTime() {
+
+
+        // document.getElementById('intro').style.display = 'block';
+        $('#imgintro').fadeTo('slow', 1);
+
+    }
+</script>
+
 </script>
 
 </html>
