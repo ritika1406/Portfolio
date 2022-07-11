@@ -36,11 +36,13 @@
         margin: auto;
     }
     
-    .introcontent button {
-        padding: .5rem 1rem;
-        margin-top: 1rem;
+    .introcontent .button {
+        padding: .5rem .7rem;
         border-style: none;
         background-color: #ffaa1c;
+        color: black;
+        text-decoration: none;
+        margin-top: 2rem;
     }
     
     .introcontent h3 {
@@ -53,6 +55,7 @@
     
     .introcontent p {
         opacity: 80%;
+        margin-bottom: 2rem;
     }
     
     .imageintro img {
@@ -77,6 +80,13 @@
     .graphabtme {
         display: flex;
         margin-right: 2rem;
+    }
+    
+    .graphabtme img {
+        height: 20rem;
+        margin: 0%;
+        width: 18rem;
+        border-radius: 50%;
     }
     
     .graphabtme .internships,
@@ -146,11 +156,14 @@
         margin-right: .9rem;
         background-color: #101010;
         padding: 2rem;
+        cursor: pointer;
     }
     
     .cards .card:hover {
         background-color: #ffaa1c;
         color: black;
+        box-shadow: 5px 10px #393939;
+        border-radius: 1rem;
     }
     
     .bgcard h2 {
@@ -216,6 +229,11 @@
     .skills .figma {
         color: #e04a34;
     }
+    
+    .skills i:hover {
+        font-size: 3.5rem;
+        margin: .1rem;
+    }
     /* projects */
     
     .projectsupper {
@@ -258,10 +276,12 @@
         justify-content: space-between;
     }
     
-    .buttoncont button {
+    .buttoncont .button {
         background-color: #ffaa1c;
         border-style: none;
-        padding: .5rem;
+        padding: .5rem .8rem;
+        text-decoration: none;
+        color: black;
     }
     /* footer */
     
@@ -281,6 +301,7 @@
         padding: .5rem;
         margin-top: .1rem;
         padding-bottom: .1rem;
+        cursor: pointer;
     }
     
     .footer .linkedin {
