@@ -62,7 +62,7 @@
         height: 20rem;
         /* margin: 0%; */
         width: 18rem;
-        border-radius: 50%;
+        /* border-radius: 50%; */
     }
     /* aboutme */
     
@@ -131,7 +131,7 @@
     }
     
     .experience {
-        width: 70%;
+        width: 80%;
         margin-left: 1rem;
         display: flex;
         margin-top: 4rem;
@@ -230,10 +230,10 @@
         color: #e04a34;
     }
     
-    .skills i:hover {
+    /* .skills i:hover {
         font-size: 3.5rem;
         margin: .1rem;
-    }
+    } */
     /* projects */
     
     .projectsupper {
@@ -251,6 +251,16 @@
         background-color: #303030;
         margin: .5rem;
         padding: 1rem;
+        text-align: center;
+    }
+    .projcard a{
+        text-decoration: none;
+        color: white;
+    }
+    .projimg{
+        width: 10rem;
+        /* border-radius: 30%; */
+        margin-bottom: 1rem;
     }
     /* education */
     
@@ -296,13 +306,6 @@
         padding: 1rem;
     }
     
-    .footer i {
-        margin: .5rem;
-        padding: .5rem;
-        margin-top: .1rem;
-        padding-bottom: .1rem;
-        cursor: pointer;
-    }
     
     .footer .linkedin {
         color: #0077b5
@@ -311,13 +314,60 @@
     .footer .insta {
         color: #f78900;
     }
+    .footer a{
+        text-decoration: none;
+        margin-left: 1rem;
+    }
     /* media queries */
-    
+    @media only screen and (max-width: 500px){
+       /* intro session  */
+       .intro{
+       width: 90%;
+    }
+       .imageintro img{
+        width: 10rem;
+       }
+
+       /* abtme */
+       .aboutme {
+        display: block;
+       }
+
+       /* .experience */
+        
+       .experience .bgcard{
+        height: auto;
+
+       }
+       /* .bgcard h2{
+        -webkit-writing-mode: unset;
+       } */
+
+       .cards{
+        display:block
+       }
+       .bgcard h2{
+        display: none;
+       }
+
+/* conatct */
+       .contact{
+        display:block;
+       }
+    }
     @media only screen and (min-width: 800px) {
         .navitems {
             margin-left: 55%;
         }
         .nav a {
             margin-left: .5rem;
+        }
+
+        
+    }
+
+    @media only screen and (max-width: 900px) {
+        .experience{
+            width:auto;
         }
     }
